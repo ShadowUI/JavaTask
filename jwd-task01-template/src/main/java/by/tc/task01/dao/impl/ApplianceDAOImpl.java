@@ -13,7 +13,7 @@ import java.util.*;
 
 public class ApplianceDAOImpl implements ApplianceDAO{
 
-	private final static String PATHWAY = "D:\\EPAM_Projects\\JWD_Task01_OOP\\jwd-task01-template\\src\\main\\resources\\appliances_db.txt";
+	private final static String PATHWAY = "src\\main\\resources\\appliances_db.txt";
 
 	ApplianceCreator creator = new ApplianceCreator();
 
